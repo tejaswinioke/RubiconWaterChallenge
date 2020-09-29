@@ -1,0 +1,210 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Teju/java/eclipse/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.16.0.20200610-1735/jars/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [file:/C:/Teju/java/eclipse/configuration/org.eclipse.osgi/5/0/.cp/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Teju/java/eclipse/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.16.0.20200610-1735/jars/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [file:/C:/Teju/java/eclipse/configuration/org.eclipse.osgi/5/0/.cp/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.bdd.testing:RubiconChallenge >------------------
+[INFO] Building RubiconChallenge 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ RubiconChallenge ---
+[INFO] Deleting C:\Teju\java\workspace\RubiconChallenge\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ RubiconChallenge ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Teju\java\workspace\RubiconChallenge\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ RubiconChallenge ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 6 source files to C:\Teju\java\workspace\RubiconChallenge\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:testResources (default-testResources) @ RubiconChallenge ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ RubiconChallenge ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to C:\Teju\java\workspace\RubiconChallenge\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ RubiconChallenge ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+
+@products @flumegate @specification
+Scenario: Validate FlumeGate Specifications                          # src/test/resources/features/Products.feature:7
+Waiting for page load to complete
+  Given I am on the home page                                        # stepdefinition.ProductsSteps.i_am_on_the_home_page()
+Selecting menu Control Gates & Valves and sub menu FlumeGate
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+Waiting for page title FlumeGate
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@47a6e8db
+Title of the Results FlumeGate®
+  When I go to sub menu "FlumeGate" in menu "Control Gates & Valves" # stepdefinition.ProductsSteps.i_go_to_sub_menu_in_menu(java.lang.String,java.lang.String)
+Clicking tab Specifications
+  And I open "Specifications" tab                                    # stepdefinition.ProductsSteps.i_open_tab(java.lang.String)
+Getting specifications details for Solar panel
+  Then I should be able to find "Solar panel" details                # stepdefinition.ProductsSteps.i_should_be_able_to_find_details(java.lang.String)
+
+@products @download @BladeMeter
+Scenario: Validate download brochure                       # src/test/resources/features/Products.feature:14
+Waiting for page load to complete
+  Given I am on the home page                              # stepdefinition.ProductsSteps.i_am_on_the_home_page()
+Selecting menu Flow Meters and sub menu BladeMeter
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+Waiting for page title BladeMeter
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@3e062caf
+Title of the Results BladeMeter®
+  When I go to sub menu "BladeMeter" in menu "Flow Meters" # stepdefinition.ProductsSteps.i_go_to_sub_menu_in_menu(java.lang.String,java.lang.String)
+Clicking link to download brochure
+  And I click on "Download brochure" link on sidebar       # stepdefinition.ProductsSteps.i_click_on_link_on_sidebar(java.lang.String)
+Switching to new window containing url pdf
+Getting page URL 
+This page URL is https://www.rubiconwater.com/catalogue/blademeter
+Getting page URL 
+Getting page URL 
+This page URL is https://www.rubiconwater.com/catalogue/blademeter
+Getting page URL 
+Switched to other window
+Getting page URL 
+  Then I should be able to see PDF file in browser         # stepdefinition.ProductsSteps.i_should_be_able_to_see_pdf_file_in_browser()
+
+@search
+Scenario: verify search scenario                            # src/test/resources/features/Search.feature:7
+Waiting for page load to complete
+  Given I am on home page                                   # stepdefinition.SearchSteps.i_am_on_home_page()
+Searching for text -FarmConnect Software
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+Entered text -FarmConnect Software
+Clicking on search 
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+Waiting for page title Products
+Title for the results FarmConnect® Software
+  When I search for "FarmConnect Software"                  # stepdefinition.SearchSteps.i_search(java.lang.String)
+Clicking on results title to view FarmConnect
+com.gargoylesoftware.htmlunit.DefaultCssErrorHandler@6a9f2b2a
+Waiting for page title FarmConnect
+Title of the Results FarmConnect® Software
+  And click on search result for "FarmConnect"              # stepdefinition.SearchSteps.click_on_search_result(java.lang.String)
+Getting overview details for Crop Monitoring
+  Then I should be able to see details of "Crop Monitoring" # stepdefinition.SearchSteps.i_should_be_able_to_see_details_of(java.lang.String)
+???????????????????????????????????????????????????????????????????????????????
+? Share your Cucumber Report with your team at https://reports.cucumber.io    ?
+? Activate publishing with one of the following:                              ?
+?                                                                             ?
+? src/test/resources/cucumber.properties:    cucumber.publish.enabled=true    ?
+? Environment variable:                      CUCUMBER_PUBLISH_ENABLED=true    ?
+? JUnit:                                     @CucumberOptions(publish = true) ?
+?                                                                             ?
+? More information at https://reports.cucumber.io/docs/cucumber-jvm           ?
+?                                                                             ?
+? To disable this message, add cucumber.publish.quiet=true to                 ?
+? src/test/resources/cucumber.properties                                      ?
+???????????????????????????????????????????????????????????????????????????????
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.164 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ RubiconChallenge ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Teju\java\workspace\RubiconChallenge\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ RubiconChallenge ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 6 source files to C:\Teju\java\workspace\RubiconChallenge\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:testResources (default-testResources) @ RubiconChallenge ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ RubiconChallenge ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to C:\Teju\java\workspace\RubiconChallenge\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ RubiconChallenge ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ RubiconChallenge ---
+[INFO] Building jar: C:\Teju\java\workspace\RubiconChallenge\target\RubiconChallenge-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-cucumber-reporting:3.8.0:generate (execution) @ RubiconChallenge ---
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+[INFO] About to generate Cucumber report.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:10 min
+[INFO] Finished at: 2020-09-30T08:01:07+10:00
+[INFO] ------------------------------------------------------------------------

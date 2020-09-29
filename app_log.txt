@@ -1,0 +1,81 @@
+INFO    2020-09-30 08:00:45,706 [main] stepdefinition.Hooks  - -----------------Beginning test execution-----------------
+INFO    2020-09-30 08:00:45,706 [main] stepdefinition.Hooks  - Config Properties loaded
+INFO    2020-09-30 08:00:45,706 [main] helpers.SeleniumDriver  - Setting up driver->headless
+INFO    2020-09-30 08:00:46,460 [main] helpers.SeleniumDriver  - Opening up URL->http://rubiconwater.com.au/
+INFO    2020-09-30 08:00:46,461 [main] pages.HomePage  - Waiting for page load to complete
+INFO    2020-09-30 08:00:46,463 [main] pages.Header  - Searching for text -FarmConnect Software
+WARN    2020-09-30 08:00:48,160 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/normalize.css' [33:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,160 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/normalize.css' [34:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,162 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/normalize.css' [378:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,162 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/normalize.css' [395:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,162 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/normalize.css' [424:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,163 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/normalize.css' [447:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,163 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/normalize.css' [448:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,194 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [192:3] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,195 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [216:3] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,199 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [442:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,207 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [1137:2] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,208 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [1186:2] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,208 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [1195:3] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,223 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [2283:2] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,223 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [2284:2] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,223 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [2285:2] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,224 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [2340:2] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,224 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [2343:2] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,226 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [2463:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,227 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/main.css' [2548:5] Error in declaration. '*' is not allowed as first char of a property.
+WARN    2020-09-30 08:00:48,260 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://www.rubiconwater.com/css/dropkick.css' [122:3] Error in declaration. '*' is not allowed as first char of a property.
+INFO    2020-09-30 08:00:48,603 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.html.DefaultElementFactory  - Bad input type: "datetime", creating a text input
+WARN    2020-09-30 08:00:48,703 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2020-09-30 08:00:48,885 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2020-09-30 08:00:50,208 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2020-09-30 08:00:50,475 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2020-09-30 08:00:51,804 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2020-09-30 08:00:51,855 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2020-09-30 08:00:52,003 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'application/x-javascript'.
+WARN    2020-09-30 08:00:52,153 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'application/x-javascript'.
+INFO    2020-09-30 08:00:52,361 [main] pages.Header  - Entered text -FarmConnect Software
+INFO    2020-09-30 08:00:52,361 [main] pages.Header  - Clicking on search 
+WARN    2020-09-30 08:00:52,657 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine  - Error during JavaScriptEngine.init(WebWindow, Context)
+TypeError: Cannot modify readonly property: constructor. (https://js.hscollectedforms.net/collectedforms.js#1)
+prototype: HTMLOptionElement
+WARN    2020-09-30 08:00:52,658 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine  - Error during JavaScriptEngine.init(WebWindow, Context)
+TypeError: Cannot modify readonly property: constructor. (https://js.hscollectedforms.net/collectedforms.js#1)
+prototype: MutationObserver
+WARN    2020-09-30 08:00:52,659 [JS executor for com.gargoylesoftware.htmlunit.WebClient@1934ad7c] com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine  - Error during JavaScriptEngine.init(WebWindow, Context)
+TypeError: Cannot modify readonly property: constructor. (https://js.hscollectedforms.net/collectedforms.js#1)
+prototype: URL
+INFO    2020-09-30 08:00:53,837 [main] com.gargoylesoftware.htmlunit.html.DefaultElementFactory  - Bad input type: "datetime", creating a text input
+WARN    2020-09-30 08:00:54,144 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2020-09-30 08:00:54,369 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'application/x-javascript'.
+WARN    2020-09-30 08:00:54,410 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'application/x-javascript'.
+WARN    2020-09-30 08:00:54,626 [main] com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine  - Error during JavaScriptEngine.init(WebWindow, Context)
+TypeError: Cannot modify readonly property: constructor. (https://js.hscollectedforms.net/collectedforms.js#1)
+prototype: HTMLOptionElement
+WARN    2020-09-30 08:00:54,627 [main] com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine  - Error during JavaScriptEngine.init(WebWindow, Context)
+TypeError: Cannot modify readonly property: constructor. (https://js.hscollectedforms.net/collectedforms.js#1)
+prototype: MutationObserver
+WARN    2020-09-30 08:00:54,627 [main] com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine  - Error during JavaScriptEngine.init(WebWindow, Context)
+TypeError: Cannot modify readonly property: constructor. (https://js.hscollectedforms.net/collectedforms.js#1)
+prototype: URL
+INFO    2020-09-30 08:00:54,910 [main] pages.Header  - Waiting for page title Products
+INFO    2020-09-30 08:00:54,919 [main] pages.ProductsPage  - Title for the results FarmConnect® Software
+INFO    2020-09-30 08:00:54,922 [main] pages.ProductsPage  - Clicking on results title to view FarmConnect
+INFO    2020-09-30 08:00:55,978 [pool-3-thread-1] com.gargoylesoftware.htmlunit.html.DefaultElementFactory  - Bad input type: "datetime", creating a text input
+WARN    2020-09-30 08:00:56,256 [pool-3-thread-1] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2020-09-30 08:00:56,375 [pool-3-thread-1] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'application/x-javascript'.
+WARN    2020-09-30 08:00:56,417 [pool-3-thread-1] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'application/x-javascript'.
+WARN    2020-09-30 08:00:56,628 [pool-3-thread-1] com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine  - Error during JavaScriptEngine.init(WebWindow, Context)
+TypeError: Cannot modify readonly property: constructor. (https://js.hscollectedforms.net/collectedforms.js#1)
+prototype: HTMLOptionElement
+WARN    2020-09-30 08:00:56,631 [pool-3-thread-1] com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine  - Error during JavaScriptEngine.init(WebWindow, Context)
+TypeError: Cannot modify readonly property: constructor. (https://js.hscollectedforms.net/collectedforms.js#1)
+prototype: MutationObserver
+WARN    2020-09-30 08:00:56,632 [pool-3-thread-1] com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine  - Error during JavaScriptEngine.init(WebWindow, Context)
+TypeError: Cannot modify readonly property: constructor. (https://js.hscollectedforms.net/collectedforms.js#1)
+prototype: URL
+INFO    2020-09-30 08:00:56,952 [main] pages.ProductsPage  - Waiting for page title FarmConnect
+INFO    2020-09-30 08:00:56,955 [main] pages.CatalogPage  - Title of the Results FarmConnect® Software
+INFO    2020-09-30 08:00:56,957 [main] pages.CatalogPage  - Getting overview details for Crop Monitoring
+INFO    2020-09-30 08:00:56,965 [main] helpers.SeleniumDriver  - quitting the driver
+INFO    2020-09-30 08:00:56,975 [main] stepdefinition.Hooks  - -----------------Finished test execution-----------------
